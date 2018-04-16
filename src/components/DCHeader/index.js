@@ -22,7 +22,7 @@ const DCHeader = () => (
     <HeaderSection>
       <Link to="/">
         <LogoBrand>
-          <FontAwesomeIcon icon={faGem} size="1x" /> DNE
+          <FontAwesomeIcon icon={faCoffee} size="1x" /> TRY ME
         </LogoBrand>
       </Link>
       <Nav>

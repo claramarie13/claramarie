@@ -22,10 +22,12 @@ import img14 from '../img/1200/14.jpg'
 const IndexPage = () => (
   <Container>
     <Section>
-      <h1>Digital Network Economy</h1>
+      <h2>CLARA'S JOURNEY THROUGH THE WEB</h2>
       <p>
-        This website tells you more about the course Digital Network Economy.
-        The course is taught at{' '}
+        This website exists, because a young girl once realized that
+        studying business is absolutely meaningless and she needs to broaden her boring
+        horizen a bit - et voilá.
+        The course she learnt the basics at was taught at{' '}
         <a href="https://cbs.de/">Cologne Business School</a>.
       </p>
     </Section>

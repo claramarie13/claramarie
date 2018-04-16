@@ -14,8 +14,8 @@ export const Container = styled.div`
 `
 
 export const Footer = styled.footer`
-  background: #8f8978;
-  height: 600px;
+  background: #C8E6C9;
+  height: 150px;
   padding: 27px 0;
 `
 
@@ -34,7 +34,7 @@ export const H2 = styled.h2`
 `
 
 export const Header = styled.header`
-  background: #8f8978;
+  background: #C8E6C9;
   margin-bottom: 1.5rem;
   padding: 0.5rem 0;
   @media (min-width: 48em) {
@@ -76,7 +76,7 @@ export const ImgCaption = styled.div`
 `
 
 export const LogoBrand = styled.span`
-  color: #fff;
+  color: #424242;
   font-family: 'Roboto';
   font-size: 2.3888889rem;
   line-height: 3rem;
@@ -84,7 +84,7 @@ export const LogoBrand = styled.span`
 `
 
 export const LogoText = styled.span`
-  color: #fff;
+  color: #424242;
   font-size: 1.7777778rem;
   line-height: 3rem;
   line-height: 3rem;
@@ -107,11 +107,11 @@ export const Section = styled.section`
   }
 `
 
-export const StyledLink = styled(Link)`
-  color: #fff;
+export const StyledLink = styled(Link) `
+  color: #424242;
   align-self: baseline;
 `
 
-export const StyledFlex = styled(Flex)`
+export const StyledFlex = styled(Flex) `
   flex-wrap: wrap;
 `
