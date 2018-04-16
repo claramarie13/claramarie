@@ -1,0 +1,4189 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/claraesfeld/websites/claramarie/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7ec9d1b5504dcfc0626f08073cd7c911",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "04fed803eb4ae7a4a9ba842e864febb4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5c3f414e7f41417392339dd068d1e22e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a59a5d7586853f8fe0e33d999d6349c3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b3d01b50a0c6fd60431f560314c60cd0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3f45fe5559bb471823ed93603af0ef99",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "da0968292f5ce32fb296361edd349c0c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-image": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-image",
+      "id": "Plugin gatsby-image",
+      "name": "gatsby-image",
+      "version": "1.0.46",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-image",
+      "packageJson": {
+        "name": "gatsby-image",
+        "description": "Lazy-loading React image component with optional support for the blur-up effect.",
+        "version": "1.0.46",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-component",
+          "react-component"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0ad6332bfa1c88a6c95ae5bc0052aa87",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-link": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-link",
+      "id": "Plugin gatsby-link",
+      "name": "gatsby-link",
+      "version": "1.6.40",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-link",
+      "packageJson": {
+        "name": "gatsby-link",
+        "description": "An enhanced Link component for Gatsby sites with support for resource prefetching",
+        "version": "1.6.40",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-component"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@types/history",
+            "version": "^4.6.2"
+          },
+          {
+            "name": "@types/react-router-dom",
+            "version": "^4.2.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.5.8"
+          },
+          {
+            "name": "ric",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c3809e0d18cb95ef096b37b1e87aae47",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0d493fb40fe46487acc319fb7f12de36",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5a34cf90c86d186432d4b1d463b94e13",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3498fd7f3c8d3c9131d8f73bd757c657",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.18",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4cd2a561584657fef5a0c3fc010b68c0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.31",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "/Users/claraesfeld/websites/claramarie/src/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.31",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e2c5dd126257f71a65d3bfd54f930f22",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.40",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "1.2.24",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-smartypants",
+            "id": "Plugin gatsby-remark-smartypants",
+            "name": "gatsby-remark-smartypants",
+            "version": "1.4.12",
+            "pluginOptions": {
+              "plugins": [],
+              "dashes": "oldschool"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-smartypants"
+          },
+          {
+            "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.61",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 1200,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.40",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a0df59ca785bd02863f420bec8ea15ef",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "1.2.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "1.2.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "0.0.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.12.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "461c71107e50ffc70002eb0abe069618",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-smartypants": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-smartypants",
+      "id": "Plugin gatsby-remark-smartypants",
+      "name": "gatsby-remark-smartypants",
+      "version": "1.4.12",
+      "pluginOptions": {
+        "plugins": [],
+        "dashes": "oldschool"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "1.4.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "retext",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f2e968d9b334e9392d96ef25844610b0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.61",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 1200,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.61",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.42"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1926a46341b7c2909944f1eec72c808b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/claraesfeld/websites/claramarie",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "547ec1e6ca94866aad46bbf85665baad",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/claraesfeld/websites/claramarie",
+      "packageJson": {
+        "name": "DNE",
+        "description": "Digital Network Economy Class",
+        "version": "1.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Ulrich Anders",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@fortawesome/fontawesome",
+            "version": "^1.1.5"
+          },
+          {
+            "name": "@fortawesome/fontawesome-free-regular",
+            "version": "^5.0.10"
+          },
+          {
+            "name": "@fortawesome/fontawesome-free-solid",
+            "version": "^5.0.10"
+          },
+          {
+            "name": "@fortawesome/react-fontawesome",
+            "version": "^0.0.18"
+          },
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.46"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.42"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^1.2.21"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.18"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.31"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.61"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^1.2.24"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^1.4.12"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.31"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.40"
+          },
+          {
+            "name": "grid-styled",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.2.5"
+          },
+          {
+            "name": "styled-system",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.6"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "eslint",
+            "version": "^4.19.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.12.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6d4ba220092571ca91a9ae30c422c126",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "DNE1",
+        "version": "1.1.0",
+        "date": "April 14, 2018"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-04-16T18:15:07.551Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3d6870c64976be87f54f043f6f30c29b",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/claraesfeld/websites/claramarie/src/ absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aea507ab5a9e00e3a972a9c90acac7cb",
+        "type": "Directory",
+        "description": "Directory \"src\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-04-16T17:18:45.297Z",
+      "accessTime": "2018-04-16T18:15:12.625Z",
+      "changeTime": "2018-04-16T18:07:53.922Z",
+      "birthTime": "2018-04-16T15:40:19.128Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598444679,
+      "blocks": 0,
+      "atimeMs": 1523902512625.314,
+      "mtimeMs": 1523899125296.6855,
+      "ctimeMs": 1523902073921.8547,
+      "birthtimeMs": 1523893219128.2673,
+      "atime": "2018-04-16T18:15:12.625Z",
+      "mtime": "2018-04-16T17:18:45.297Z",
+      "ctime": "2018-04-16T18:07:53.922Z",
+      "birthtime": "2018-04-16T15:40:19.128Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/components absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/components absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5b5f362bbb70ff26d7c64ef369da5825",
+        "type": "Directory",
+        "description": "Directory \"src/components\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-04-16T15:40:19.129Z",
+      "accessTime": "2018-04-16T18:15:12.632Z",
+      "changeTime": "2018-04-16T18:07:53.910Z",
+      "birthTime": "2018-04-16T15:40:19.128Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515996,
+      "blocks": 0,
+      "atimeMs": 1523902512631.5962,
+      "mtimeMs": 1523893219129.4888,
+      "ctimeMs": 1523902073909.5273,
+      "birthtimeMs": 1523893219128.4336,
+      "atime": "2018-04-16T18:15:12.632Z",
+      "mtime": "2018-04-16T15:40:19.129Z",
+      "ctime": "2018-04-16T18:07:53.910Z",
+      "birthtime": "2018-04-16T15:40:19.128Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4303fab1aebccb4c6fb0516875cc7475",
+        "type": "Directory",
+        "description": "Directory \"src/img\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img",
+      "relativePath": "img",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-04-16T17:18:48.958Z",
+      "accessTime": "2018-04-16T18:15:12.632Z",
+      "changeTime": "2018-04-16T18:07:53.905Z",
+      "birthTime": "2018-04-16T15:40:19.130Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src",
+      "base": "img",
+      "ext": "",
+      "name": "img",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515970,
+      "blocks": 0,
+      "atimeMs": 1523902512631.6602,
+      "mtimeMs": 1523899128957.6057,
+      "ctimeMs": 1523902073905.1484,
+      "birthtimeMs": 1523893219129.8357,
+      "atime": "2018-04-16T18:15:12.632Z",
+      "mtime": "2018-04-16T17:18:48.958Z",
+      "ctime": "2018-04-16T18:07:53.905Z",
+      "birthtime": "2018-04-16T15:40:19.130Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/layouts absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/layouts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "904b866ca9e328cb0fe75655a666dab8",
+        "type": "Directory",
+        "description": "Directory \"src/layouts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/layouts",
+      "relativePath": "layouts",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-04-16T15:40:19.186Z",
+      "accessTime": "2018-04-16T18:15:12.632Z",
+      "changeTime": "2018-04-16T18:07:53.912Z",
+      "birthTime": "2018-04-16T15:40:19.185Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src",
+      "base": "layouts",
+      "ext": "",
+      "name": "layouts",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516003,
+      "blocks": 0,
+      "atimeMs": 1523902512631.625,
+      "mtimeMs": 1523893219186.076,
+      "ctimeMs": 1523902073912.1912,
+      "birthtimeMs": 1523893219185.2776,
+      "atime": "2018-04-16T18:15:12.632Z",
+      "mtime": "2018-04-16T15:40:19.186Z",
+      "ctime": "2018-04-16T18:07:53.912Z",
+      "birthtime": "2018-04-16T15:40:19.185Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "df697643df940ae5fc6d552237f4b3f7",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2018-04-16T15:40:19.189Z",
+      "accessTime": "2018-04-16T18:15:12.632Z",
+      "changeTime": "2018-04-16T18:07:53.922Z",
+      "birthTime": "2018-04-16T15:40:19.186Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 9,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516009,
+      "blocks": 0,
+      "atimeMs": 1523902512631.687,
+      "mtimeMs": 1523893219188.828,
+      "ctimeMs": 1523902073921.535,
+      "birthtimeMs": 1523893219186.3206,
+      "atime": "2018-04-16T18:15:12.632Z",
+      "mtime": "2018-04-16T15:40:19.189Z",
+      "ctime": "2018-04-16T18:07:53.922Z",
+      "birthtime": "2018-04-16T15:40:19.186Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/styled-components absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/styled-components absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e313e707084a1c58a5c4cd7b4934d107",
+        "type": "Directory",
+        "description": "Directory \"src/styled-components\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/styled-components",
+      "relativePath": "styled-components",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-04-16T15:40:19.189Z",
+      "accessTime": "2018-04-16T18:15:12.632Z",
+      "changeTime": "2018-04-16T18:07:53.840Z",
+      "birthTime": "2018-04-16T15:40:19.189Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src",
+      "base": "styled-components",
+      "ext": "",
+      "name": "styled-components",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515965,
+      "blocks": 0,
+      "atimeMs": 1523902512631.723,
+      "mtimeMs": 1523893219189.146,
+      "ctimeMs": 1523902073839.8767,
+      "birthtimeMs": 1523893219189.0344,
+      "atime": "2018-04-16T18:15:12.632Z",
+      "mtime": "2018-04-16T15:40:19.189Z",
+      "ctime": "2018-04-16T18:07:53.840Z",
+      "birthtime": "2018-04-16T15:40:19.189Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/templates absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/templates absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bc5c3bf80f19815ad7ac51abb2f0a30e",
+        "type": "Directory",
+        "description": "Directory \"src/templates\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/templates",
+      "relativePath": "templates",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-04-16T15:40:19.190Z",
+      "accessTime": "2018-04-16T18:15:12.632Z",
+      "changeTime": "2018-04-16T18:07:53.913Z",
+      "birthTime": "2018-04-16T15:40:19.190Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src",
+      "base": "templates",
+      "ext": "",
+      "name": "templates",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516007,
+      "blocks": 0,
+      "atimeMs": 1523902512631.7524,
+      "mtimeMs": 1523893219189.6409,
+      "ctimeMs": 1523902073913.0342,
+      "birthtimeMs": 1523893219189.5251,
+      "atime": "2018-04-16T18:15:12.632Z",
+      "mtime": "2018-04-16T15:40:19.190Z",
+      "ctime": "2018-04-16T18:07:53.913Z",
+      "birthtime": "2018-04-16T15:40:19.190Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/utils absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/utils absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c0c187e118c44b3114c99e8611cc1b7f",
+        "type": "Directory",
+        "description": "Directory \"src/utils\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/utils",
+      "relativePath": "utils",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-04-16T15:40:19.190Z",
+      "accessTime": "2018-04-16T18:15:12.632Z",
+      "changeTime": "2018-04-16T18:07:53.854Z",
+      "birthTime": "2018-04-16T15:40:19.190Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src",
+      "base": "utils",
+      "ext": "",
+      "name": "utils",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515968,
+      "blocks": 0,
+      "atimeMs": 1523902512631.7878,
+      "mtimeMs": 1523893219189.9045,
+      "ctimeMs": 1523902073854.319,
+      "birthtimeMs": 1523893219189.8108,
+      "atime": "2018-04-16T18:15:12.632Z",
+      "mtime": "2018-04-16T15:40:19.190Z",
+      "ctime": "2018-04-16T18:07:53.854Z",
+      "birthtime": "2018-04-16T15:40:19.190Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/components/DCFooter absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/components/DCFooter absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ed6769f3d94d1186ab3d421470a93c4c",
+        "type": "Directory",
+        "description": "Directory \"src/components/DCFooter\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/components/DCFooter",
+      "relativePath": "components/DCFooter",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-04-16T15:40:19.129Z",
+      "accessTime": "2018-04-16T18:15:12.638Z",
+      "changeTime": "2018-04-16T18:07:53.908Z",
+      "birthTime": "2018-04-16T15:40:19.129Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/components",
+      "base": "DCFooter",
+      "ext": "",
+      "name": "DCFooter",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515999,
+      "blocks": 0,
+      "atimeMs": 1523902512638.275,
+      "mtimeMs": 1523893219128.7175,
+      "ctimeMs": 1523902073908.037,
+      "birthtimeMs": 1523893219128.5437,
+      "atime": "2018-04-16T18:15:12.638Z",
+      "mtime": "2018-04-16T15:40:19.129Z",
+      "ctime": "2018-04-16T18:07:53.908Z",
+      "birthtime": "2018-04-16T15:40:19.129Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/components/DCHeader absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/components/DCHeader absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2b9172f5c7a8a3295daefb5b664bbd36",
+        "type": "Directory",
+        "description": "Directory \"src/components/DCHeader\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/components/DCHeader",
+      "relativePath": "components/DCHeader",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-04-16T15:40:19.129Z",
+      "accessTime": "2018-04-16T18:15:12.638Z",
+      "changeTime": "2018-04-16T18:07:53.907Z",
+      "birthTime": "2018-04-16T15:40:19.129Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/components",
+      "base": "DCHeader",
+      "ext": "",
+      "name": "DCHeader",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515997,
+      "blocks": 0,
+      "atimeMs": 1523902512638.2957,
+      "mtimeMs": 1523893219129.1865,
+      "ctimeMs": 1523902073906.5217,
+      "birthtimeMs": 1523893219129.059,
+      "atime": "2018-04-16T18:15:12.638Z",
+      "mtime": "2018-04-16T15:40:19.129Z",
+      "ctime": "2018-04-16T18:07:53.907Z",
+      "birthtime": "2018-04-16T15:40:19.129Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/components/DCPerson absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/components/DCPerson absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "eda46576c0da9702d76f7d877579b479",
+        "type": "Directory",
+        "description": "Directory \"src/components/DCPerson\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/components/DCPerson",
+      "relativePath": "components/DCPerson",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-04-16T15:40:19.130Z",
+      "accessTime": "2018-04-16T18:15:12.638Z",
+      "changeTime": "2018-04-16T18:07:53.909Z",
+      "birthTime": "2018-04-16T15:40:19.129Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/components",
+      "base": "DCPerson",
+      "ext": "",
+      "name": "DCPerson",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516001,
+      "blocks": 0,
+      "atimeMs": 1523902512638.3948,
+      "mtimeMs": 1523893219129.5872,
+      "ctimeMs": 1523902073909.383,
+      "birthtimeMs": 1523893219129.4773,
+      "atime": "2018-04-16T18:15:12.638Z",
+      "mtime": "2018-04-16T15:40:19.130Z",
+      "ctime": "2018-04-16T18:07:53.909Z",
+      "birthtime": "2018-04-16T15:40:19.129Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/0400 absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/0400 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "70d869b4386791040f2f16378c0f3645",
+        "type": "Directory",
+        "description": "Directory \"src/img/0400\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/0400",
+      "relativePath": "img/0400",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-04-16T15:40:19.131Z",
+      "accessTime": "2018-04-16T18:15:12.638Z",
+      "changeTime": "2018-04-16T18:07:53.892Z",
+      "birthTime": "2018-04-16T15:40:19.131Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img",
+      "base": "0400",
+      "ext": "",
+      "name": "0400",
+      "relativeDirectory": "img",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515988,
+      "blocks": 0,
+      "atimeMs": 1523902512638.4268,
+      "mtimeMs": 1523893219131.3154,
+      "ctimeMs": 1523902073892.447,
+      "birthtimeMs": 1523893219130.7893,
+      "atime": "2018-04-16T18:15:12.638Z",
+      "mtime": "2018-04-16T15:40:19.131Z",
+      "ctime": "2018-04-16T18:07:53.892Z",
+      "birthtime": "2018-04-16T15:40:19.131Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1024 absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1024 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "53889764cb19246e34a8b4be2f402c26",
+        "type": "Directory",
+        "description": "Directory \"src/img/1024\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1024",
+      "relativePath": "img/1024",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-04-16T15:40:19.141Z",
+      "accessTime": "2018-04-16T18:15:12.639Z",
+      "changeTime": "2018-04-16T18:07:53.905Z",
+      "birthTime": "2018-04-16T15:40:19.132Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img",
+      "base": "1024",
+      "ext": "",
+      "name": "1024",
+      "relativeDirectory": "img",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515990,
+      "blocks": 0,
+      "atimeMs": 1523902512638.525,
+      "mtimeMs": 1523893219141.4897,
+      "ctimeMs": 1523902073904.746,
+      "birthtimeMs": 1523893219131.7957,
+      "atime": "2018-04-16T18:15:12.639Z",
+      "mtime": "2018-04-16T15:40:19.141Z",
+      "ctime": "2018-04-16T18:07:53.905Z",
+      "birthtime": "2018-04-16T15:40:19.132Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200 absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c1efe57e52b8cf521363ddd644bbb9a4",
+        "type": "Directory",
+        "description": "Directory \"src/img/1200\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "relativePath": "img/1200",
+      "extension": "",
+      "size": 544,
+      "prettySize": "544 B",
+      "modifiedTime": "2018-04-16T17:19:12.220Z",
+      "accessTime": "2018-04-16T18:15:12.639Z",
+      "changeTime": "2018-04-16T18:07:53.890Z",
+      "birthTime": "2018-04-16T15:40:19.149Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img",
+      "base": "1200",
+      "ext": "",
+      "name": "1200",
+      "relativeDirectory": "img",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 17,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515971,
+      "blocks": 0,
+      "atimeMs": 1523902512638.5461,
+      "mtimeMs": 1523899152219.5635,
+      "ctimeMs": 1523902073890.0874,
+      "birthtimeMs": 1523893219149.3123,
+      "atime": "2018-04-16T18:15:12.639Z",
+      "mtime": "2018-04-16T17:19:12.220Z",
+      "ctime": "2018-04-16T18:07:53.890Z",
+      "birthtime": "2018-04-16T15:40:19.149Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/blogs absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/blogs absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6ed9633d843dabeaa5f7118475d59523",
+        "type": "Directory",
+        "description": "Directory \"src/pages/blogs\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/blogs",
+      "relativePath": "pages/blogs",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-04-16T17:00:51.760Z",
+      "accessTime": "2018-04-16T18:15:12.639Z",
+      "changeTime": "2018-04-16T18:07:53.916Z",
+      "birthTime": "2018-04-16T15:40:19.187Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages",
+      "base": "blogs",
+      "ext": "",
+      "name": "blogs",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516010,
+      "blocks": 0,
+      "atimeMs": 1523902512638.6147,
+      "mtimeMs": 1523898051760.0876,
+      "ctimeMs": 1523902073916.3245,
+      "birthtimeMs": 1523893219187.1382,
+      "atime": "2018-04-16T18:15:12.639Z",
+      "mtime": "2018-04-16T17:00:51.760Z",
+      "ctime": "2018-04-16T18:07:53.916Z",
+      "birthtime": "2018-04-16T15:40:19.187Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/.DS_Store absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1ab37e11d9a1dad141414a93a997ac20",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "description": "File \"src/.DS_Store\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-04-16T17:18:48.956Z",
+      "accessTime": "2018-04-16T17:35:09.731Z",
+      "changeTime": "2018-04-16T18:07:53.841Z",
+      "birthTime": "2018-04-16T17:18:45.290Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515967,
+      "blocks": 16,
+      "atimeMs": 1523900109730.707,
+      "mtimeMs": 1523899128956.0894,
+      "ctimeMs": 1523902073841.2134,
+      "birthtimeMs": 1523899125289.8271,
+      "atime": "2018-04-16T17:35:09.731Z",
+      "mtime": "2018-04-16T17:18:48.956Z",
+      "ctime": "2018-04-16T18:07:53.841Z",
+      "birthtime": "2018-04-16T17:18:45.290Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/layouts/gridlover.css absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/layouts/gridlover.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7a5dc4a47328f49cd1f2120ff8079eb8",
+        "mediaType": "text/css",
+        "type": "File",
+        "description": "File \"src/layouts/gridlover.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/layouts/gridlover.css",
+      "relativePath": "layouts/gridlover.css",
+      "extension": "css",
+      "size": 2399,
+      "prettySize": "2.4 kB",
+      "modifiedTime": "2018-04-16T15:40:19.186Z",
+      "accessTime": "2018-04-16T15:40:19.186Z",
+      "changeTime": "2018-04-16T18:07:53.910Z",
+      "birthTime": "2018-04-16T15:40:19.186Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/layouts",
+      "base": "gridlover.css",
+      "ext": ".css",
+      "name": "gridlover",
+      "relativeDirectory": "layouts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516004,
+      "blocks": 8,
+      "atimeMs": 1523893219185.7751,
+      "mtimeMs": 1523893219185.9275,
+      "ctimeMs": 1523902073910.4333,
+      "birthtimeMs": 1523893219185.7754,
+      "atime": "2018-04-16T15:40:19.186Z",
+      "mtime": "2018-04-16T15:40:19.186Z",
+      "ctime": "2018-04-16T18:07:53.910Z",
+      "birthtime": "2018-04-16T15:40:19.186Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/layouts/index.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/layouts/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "06ec06fe9d89029677d311e95bce9a99",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/layouts/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/layouts/index.js",
+      "relativePath": "layouts/index.js",
+      "extension": "js",
+      "size": 1311,
+      "prettySize": "1.31 kB",
+      "modifiedTime": "2018-04-16T15:40:19.186Z",
+      "accessTime": "2018-04-16T18:07:26.042Z",
+      "changeTime": "2018-04-16T18:07:53.912Z",
+      "birthTime": "2018-04-16T15:40:19.186Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/layouts",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "layouts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516006,
+      "blocks": 8,
+      "atimeMs": 1523902046042.2505,
+      "mtimeMs": 1523893219186.184,
+      "ctimeMs": 1523902073912.0447,
+      "birthtimeMs": 1523893219186.0676,
+      "atime": "2018-04-16T18:07:26.042Z",
+      "mtime": "2018-04-16T15:40:19.186Z",
+      "ctime": "2018-04-16T18:07:53.912Z",
+      "birthtime": "2018-04-16T15:40:19.186Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/layouts/app.css absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/layouts/app.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "40008f065283d80c0ebf342393657c64",
+        "mediaType": "text/css",
+        "type": "File",
+        "description": "File \"src/layouts/app.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/layouts/app.css",
+      "relativePath": "layouts/app.css",
+      "extension": "css",
+      "size": 107,
+      "prettySize": "107 B",
+      "modifiedTime": "2018-04-16T15:40:19.186Z",
+      "accessTime": "2018-04-16T15:40:19.185Z",
+      "changeTime": "2018-04-16T18:07:53.911Z",
+      "birthTime": "2018-04-16T15:40:19.185Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/layouts",
+      "base": "app.css",
+      "ext": ".css",
+      "name": "app",
+      "relativeDirectory": "layouts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516005,
+      "blocks": 8,
+      "atimeMs": 1523893219185.3945,
+      "mtimeMs": 1523893219185.5386,
+      "ctimeMs": 1523902073911.129,
+      "birthtimeMs": 1523893219185.3943,
+      "atime": "2018-04-16T15:40:19.185Z",
+      "mtime": "2018-04-16T15:40:19.186Z",
+      "ctime": "2018-04-16T18:07:53.911Z",
+      "birthtime": "2018-04-16T15:40:19.185Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/.DS_Store absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9efdf1880651a2d78214ebec83fe26b1",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "description": "File \"src/img/.DS_Store\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/.DS_Store",
+      "relativePath": "img/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-04-16T17:18:53.965Z",
+      "accessTime": "2018-04-16T17:35:09.731Z",
+      "changeTime": "2018-04-16T18:07:53.891Z",
+      "birthTime": "2018-04-16T17:18:48.953Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "img",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515987,
+      "blocks": 16,
+      "atimeMs": 1523900109730.7803,
+      "mtimeMs": 1523899133964.6777,
+      "ctimeMs": 1523902073890.898,
+      "birthtimeMs": 1523899128953.4175,
+      "atime": "2018-04-16T17:35:09.731Z",
+      "mtime": "2018-04-16T17:18:53.965Z",
+      "ctime": "2018-04-16T18:07:53.891Z",
+      "birthtime": "2018-04-16T17:18:48.953Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/404.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/404.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c4aacc0356558940c9a6394d4d6eb326",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/404.js",
+      "relativePath": "pages/404.js",
+      "extension": "js",
+      "size": 379,
+      "prettySize": "379 B",
+      "modifiedTime": "2018-04-16T15:40:19.186Z",
+      "accessTime": "2018-04-16T18:07:26.043Z",
+      "changeTime": "2018-04-16T18:07:53.918Z",
+      "birthTime": "2018-04-16T15:40:19.186Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516016,
+      "blocks": 8,
+      "atimeMs": 1523902046043.192,
+      "mtimeMs": 1523893219186.476,
+      "ctimeMs": 1523902073918.4258,
+      "birthtimeMs": 1523893219186.4077,
+      "atime": "2018-04-16T18:07:26.043Z",
+      "mtime": "2018-04-16T15:40:19.186Z",
+      "ctime": "2018-04-16T18:07:53.918Z",
+      "birthtime": "2018-04-16T15:40:19.186Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/about.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/about.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "43e5d63cfc53ee492d449a70f4d45709",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/about.js",
+      "relativePath": "pages/about.js",
+      "extension": "js",
+      "size": 666,
+      "prettySize": "666 B",
+      "modifiedTime": "2018-04-16T15:40:19.187Z",
+      "accessTime": "2018-04-16T18:07:52.762Z",
+      "changeTime": "2018-04-16T18:07:53.917Z",
+      "birthTime": "2018-04-16T15:40:19.187Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516015,
+      "blocks": 8,
+      "atimeMs": 1523902072761.7908,
+      "mtimeMs": 1523893219186.6877,
+      "ctimeMs": 1523902073917.31,
+      "birthtimeMs": 1523893219186.585,
+      "atime": "2018-04-16T18:07:52.762Z",
+      "mtime": "2018-04-16T15:40:19.187Z",
+      "ctime": "2018-04-16T18:07:53.917Z",
+      "birthtime": "2018-04-16T15:40:19.187Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/blogs.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/blogs.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e2bec0869a8fc7ca930599dea8032ff3",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/blogs.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/blogs.js",
+      "relativePath": "pages/blogs.js",
+      "extension": "js",
+      "size": 933,
+      "prettySize": "933 B",
+      "modifiedTime": "2018-04-16T15:40:19.187Z",
+      "accessTime": "2018-04-16T18:07:52.762Z",
+      "changeTime": "2018-04-16T18:07:53.921Z",
+      "birthTime": "2018-04-16T15:40:19.187Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages",
+      "base": "blogs.js",
+      "ext": ".js",
+      "name": "blogs",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516019,
+      "blocks": 8,
+      "atimeMs": 1523902072761.8833,
+      "mtimeMs": 1523893219187.0364,
+      "ctimeMs": 1523902073920.6138,
+      "birthtimeMs": 1523893219186.9163,
+      "atime": "2018-04-16T18:07:52.762Z",
+      "mtime": "2018-04-16T15:40:19.187Z",
+      "ctime": "2018-04-16T18:07:53.921Z",
+      "birthtime": "2018-04-16T15:40:19.187Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/cheatsheets.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/cheatsheets.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4c5fce851b6e7294677124a618bc90f5",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/cheatsheets.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/cheatsheets.js",
+      "relativePath": "pages/cheatsheets.js",
+      "extension": "js",
+      "size": 1274,
+      "prettySize": "1.27 kB",
+      "modifiedTime": "2018-04-16T15:40:19.188Z",
+      "accessTime": "2018-04-16T18:07:52.762Z",
+      "changeTime": "2018-04-16T18:07:53.920Z",
+      "birthTime": "2018-04-16T15:40:19.188Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages",
+      "base": "cheatsheets.js",
+      "ext": ".js",
+      "name": "cheatsheets",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516018,
+      "blocks": 8,
+      "atimeMs": 1523902072761.9988,
+      "mtimeMs": 1523893219188.4807,
+      "ctimeMs": 1523902073919.8203,
+      "birthtimeMs": 1523893219188.3875,
+      "atime": "2018-04-16T18:07:52.762Z",
+      "mtime": "2018-04-16T15:40:19.188Z",
+      "ctime": "2018-04-16T18:07:53.920Z",
+      "birthtime": "2018-04-16T15:40:19.188Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/imprint.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/imprint.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "28cb316e03874329deb65371f9de9591",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/imprint.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/imprint.js",
+      "relativePath": "pages/imprint.js",
+      "extension": "js",
+      "size": 1029,
+      "prettySize": "1.03 kB",
+      "modifiedTime": "2018-04-16T17:31:29.470Z",
+      "accessTime": "2018-04-16T18:07:32.240Z",
+      "changeTime": "2018-04-16T18:07:53.921Z",
+      "birthTime": "2018-04-16T15:40:19.189Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages",
+      "base": "imprint.js",
+      "ext": ".js",
+      "name": "imprint",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516020,
+      "blocks": 8,
+      "atimeMs": 1523902052239.5496,
+      "mtimeMs": 1523899889470.3025,
+      "ctimeMs": 1523902073921.4124,
+      "birthtimeMs": 1523893219188.575,
+      "atime": "2018-04-16T18:07:32.240Z",
+      "mtime": "2018-04-16T17:31:29.470Z",
+      "ctime": "2018-04-16T18:07:53.921Z",
+      "birthtime": "2018-04-16T15:40:19.189Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/styled-components/index.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/styled-components/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d2bd489f26a307dba9997c806065eed0",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/styled-components/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/styled-components/index.js",
+      "relativePath": "styled-components/index.js",
+      "extension": "js",
+      "size": 2044,
+      "prettySize": "2.04 kB",
+      "modifiedTime": "2018-04-16T15:40:19.189Z",
+      "accessTime": "2018-04-16T15:40:21.253Z",
+      "changeTime": "2018-04-16T18:07:53.840Z",
+      "birthTime": "2018-04-16T15:40:19.189Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/styled-components",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "styled-components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515966,
+      "blocks": 8,
+      "atimeMs": 1523893221252.6848,
+      "mtimeMs": 1523893219189.3293,
+      "ctimeMs": 1523902073839.7559,
+      "birthtimeMs": 1523893219189.1292,
+      "atime": "2018-04-16T15:40:21.253Z",
+      "mtime": "2018-04-16T15:40:19.189Z",
+      "ctime": "2018-04-16T18:07:53.840Z",
+      "birthtime": "2018-04-16T15:40:19.189Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/index.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6994e13a7275f1f66e44640f83fbc598",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 9840,
+      "prettySize": "9.84 kB",
+      "modifiedTime": "2018-04-16T15:40:19.189Z",
+      "accessTime": "2018-04-16T18:07:52.762Z",
+      "changeTime": "2018-04-16T18:07:53.919Z",
+      "birthTime": "2018-04-16T15:40:19.189Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516017,
+      "blocks": 24,
+      "atimeMs": 1523902072762.1365,
+      "mtimeMs": 1523893219188.937,
+      "ctimeMs": 1523902073919.0857,
+      "birthtimeMs": 1523893219188.7969,
+      "atime": "2018-04-16T18:07:52.762Z",
+      "mtime": "2018-04-16T15:40:19.189Z",
+      "ctime": "2018-04-16T18:07:53.919Z",
+      "birthtime": "2018-04-16T15:40:19.189Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/templates/blog-post.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/templates/blog-post.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5fe679a1ebc135cb79c078f1696418ce",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/templates/blog-post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/templates/blog-post.js",
+      "relativePath": "templates/blog-post.js",
+      "extension": "js",
+      "size": 655,
+      "prettySize": "655 B",
+      "modifiedTime": "2018-04-16T15:40:19.190Z",
+      "accessTime": "2018-04-16T18:07:36.778Z",
+      "changeTime": "2018-04-16T18:07:53.913Z",
+      "birthTime": "2018-04-16T15:40:19.190Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/templates",
+      "base": "blog-post.js",
+      "ext": ".js",
+      "name": "blog-post",
+      "relativeDirectory": "templates",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516008,
+      "blocks": 8,
+      "atimeMs": 1523902056778.4753,
+      "mtimeMs": 1523893219189.71,
+      "ctimeMs": 1523902073912.9136,
+      "birthtimeMs": 1523893219189.633,
+      "atime": "2018-04-16T18:07:36.778Z",
+      "mtime": "2018-04-16T15:40:19.190Z",
+      "ctime": "2018-04-16T18:07:53.913Z",
+      "birthtime": "2018-04-16T15:40:19.190Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/utils/typography.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/utils/typography.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "23ed66815c6de011f7554ef4835f028c",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/utils/typography.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/utils/typography.js",
+      "relativePath": "utils/typography.js",
+      "extension": "js",
+      "size": 590,
+      "prettySize": "590 B",
+      "modifiedTime": "2018-04-16T15:40:19.190Z",
+      "accessTime": "2018-04-16T18:07:29.046Z",
+      "changeTime": "2018-04-16T18:07:53.843Z",
+      "birthTime": "2018-04-16T15:40:19.190Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/utils",
+      "base": "typography.js",
+      "ext": ".js",
+      "name": "typography",
+      "relativeDirectory": "utils",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515969,
+      "blocks": 8,
+      "atimeMs": 1523902049045.7888,
+      "mtimeMs": 1523893219189.9934,
+      "ctimeMs": 1523902073842.6084,
+      "birthtimeMs": 1523893219189.8965,
+      "atime": "2018-04-16T18:07:29.046Z",
+      "mtime": "2018-04-16T15:40:19.190Z",
+      "ctime": "2018-04-16T18:07:53.843Z",
+      "birthtime": "2018-04-16T15:40:19.190Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/components/DCFooter/index.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/components/DCFooter/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3d4e7d58248ebeff1222b0bbdca7a20e",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/DCFooter/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/components/DCFooter/index.js",
+      "relativePath": "components/DCFooter/index.js",
+      "extension": "js",
+      "size": 419,
+      "prettySize": "419 B",
+      "modifiedTime": "2018-04-16T15:40:19.129Z",
+      "accessTime": "2018-04-16T15:40:19.499Z",
+      "changeTime": "2018-04-16T18:07:53.908Z",
+      "birthTime": "2018-04-16T15:40:19.129Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/components/DCFooter",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "components/DCFooter",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516000,
+      "blocks": 8,
+      "atimeMs": 1523893219499.2605,
+      "mtimeMs": 1523893219128.838,
+      "ctimeMs": 1523902073907.914,
+      "birthtimeMs": 1523893219128.7063,
+      "atime": "2018-04-16T15:40:19.499Z",
+      "mtime": "2018-04-16T15:40:19.129Z",
+      "ctime": "2018-04-16T18:07:53.908Z",
+      "birthtime": "2018-04-16T15:40:19.129Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/components/DCHeader/index.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/components/DCHeader/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1ef85d98fc15351bf6cfce134e01032e",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/DCHeader/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/components/DCHeader/index.js",
+      "relativePath": "components/DCHeader/index.js",
+      "extension": "js",
+      "size": 1475,
+      "prettySize": "1.48 kB",
+      "modifiedTime": "2018-04-16T15:40:19.129Z",
+      "accessTime": "2018-04-16T15:40:19.499Z",
+      "changeTime": "2018-04-16T18:07:53.906Z",
+      "birthTime": "2018-04-16T15:40:19.129Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/components/DCHeader",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "components/DCHeader",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515998,
+      "blocks": 8,
+      "atimeMs": 1523893219499.1208,
+      "mtimeMs": 1523893219129.304,
+      "ctimeMs": 1523902073906.388,
+      "birthtimeMs": 1523893219129.1758,
+      "atime": "2018-04-16T15:40:19.499Z",
+      "mtime": "2018-04-16T15:40:19.129Z",
+      "ctime": "2018-04-16T18:07:53.906Z",
+      "birthtime": "2018-04-16T15:40:19.129Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/components/DCPerson/index.js absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/components/DCPerson/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9a686069c6f3bf32ccc938ccd3cce115",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/DCPerson/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/components/DCPerson/index.js",
+      "relativePath": "components/DCPerson/index.js",
+      "extension": "js",
+      "size": 326,
+      "prettySize": "326 B",
+      "modifiedTime": "2018-04-16T15:40:19.130Z",
+      "accessTime": "2018-04-16T18:07:21.403Z",
+      "changeTime": "2018-04-16T18:07:53.909Z",
+      "birthTime": "2018-04-16T15:40:19.130Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/components/DCPerson",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "components/DCPerson",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516002,
+      "blocks": 8,
+      "atimeMs": 1523902041403.1086,
+      "mtimeMs": 1523893219129.6904,
+      "ctimeMs": 1523902073909.229,
+      "birthtimeMs": 1523893219129.5767,
+      "atime": "2018-04-16T18:07:21.403Z",
+      "mtime": "2018-04-16T15:40:19.130Z",
+      "ctime": "2018-04-16T18:07:53.909Z",
+      "birthtime": "2018-04-16T15:40:19.130Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/0400/DrUlrichAnders.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/0400/DrUlrichAnders.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0f87bccc6e2ef8a3beba37b303874208",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/0400/DrUlrichAnders.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/0400/DrUlrichAnders.jpg",
+      "relativePath": "img/0400/DrUlrichAnders.jpg",
+      "extension": "jpg",
+      "size": 29076,
+      "prettySize": "29.1 kB",
+      "modifiedTime": "2018-04-16T15:40:19.132Z",
+      "accessTime": "2018-04-16T15:40:19.583Z",
+      "changeTime": "2018-04-16T18:07:53.892Z",
+      "birthTime": "2018-04-16T15:40:19.131Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/0400",
+      "base": "DrUlrichAnders.jpg",
+      "ext": ".jpg",
+      "name": "DrUlrichAnders",
+      "relativeDirectory": "img/0400",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515989,
+      "blocks": 64,
+      "atimeMs": 1523893219583.0671,
+      "mtimeMs": 1523893219131.621,
+      "ctimeMs": 1523902073892.33,
+      "birthtimeMs": 1523893219131.3037,
+      "atime": "2018-04-16T15:40:19.583Z",
+      "mtime": "2018-04-16T15:40:19.132Z",
+      "ctime": "2018-04-16T18:07:53.892Z",
+      "birthtime": "2018-04-16T15:40:19.131Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/.DS_Store absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "26f8f532c1e9a351ac5202ea17d12c5d",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "description": "File \"src/img/1200/.DS_Store\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/.DS_Store",
+      "relativePath": "img/1200/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-04-16T17:29:23.454Z",
+      "accessTime": "2018-04-16T17:35:09.731Z",
+      "changeTime": "2018-04-16T18:07:53.859Z",
+      "birthTime": "2018-04-16T17:18:53.962Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515972,
+      "blocks": 16,
+      "atimeMs": 1523900109730.8389,
+      "mtimeMs": 1523899763453.6414,
+      "ctimeMs": 1523902073858.7644,
+      "birthtimeMs": 1523899133962.2627,
+      "atime": "2018-04-16T17:35:09.731Z",
+      "mtime": "2018-04-16T17:29:23.454Z",
+      "ctime": "2018-04-16T18:07:53.859Z",
+      "birthtime": "2018-04-16T17:18:53.962Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md absPath of file",
+      "children": [
+        "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9320ef379854d60b58f3b48555861873",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/blogs/on-data-security.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md",
+      "relativePath": "pages/blogs/on-data-security.md",
+      "extension": "md",
+      "size": 1332,
+      "prettySize": "1.33 kB",
+      "modifiedTime": "2018-04-16T15:40:19.188Z",
+      "accessTime": "2018-04-16T15:40:20.269Z",
+      "changeTime": "2018-04-16T18:07:53.916Z",
+      "birthTime": "2018-04-16T15:40:19.188Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages/blogs",
+      "base": "on-data-security.md",
+      "ext": ".md",
+      "name": "on-data-security",
+      "relativeDirectory": "pages/blogs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516014,
+      "blocks": 8,
+      "atimeMs": 1523893220268.7942,
+      "mtimeMs": 1523893219188.0083,
+      "ctimeMs": 1523902073916.1326,
+      "birthtimeMs": 1523893219187.9275,
+      "atime": "2018-04-16T15:40:20.269Z",
+      "mtime": "2018-04-16T15:40:19.188Z",
+      "ctime": "2018-04-16T18:07:53.916Z",
+      "birthtime": "2018-04-16T15:40:19.188Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md absPath of file",
+      "children": [
+        "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "972b1452535c46e45ef79e85b0f32214",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/blogs/coffeegangster.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md",
+      "relativePath": "pages/blogs/coffeegangster.md",
+      "extension": "md",
+      "size": 850,
+      "prettySize": "850 B",
+      "modifiedTime": "2018-04-16T17:40:50.743Z",
+      "accessTime": "2018-04-16T17:41:01.380Z",
+      "changeTime": "2018-04-16T18:07:53.915Z",
+      "birthTime": "2018-04-16T16:58:40.758Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages/blogs",
+      "base": "coffeegangster.md",
+      "ext": ".md",
+      "name": "coffeegangster",
+      "relativeDirectory": "pages/blogs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516012,
+      "blocks": 8,
+      "atimeMs": 1523900461380.1162,
+      "mtimeMs": 1523900450743.4077,
+      "ctimeMs": 1523902073914.7073,
+      "birthtimeMs": 1523897920758.1455,
+      "atime": "2018-04-16T17:41:01.380Z",
+      "mtime": "2018-04-16T17:40:50.743Z",
+      "ctime": "2018-04-16T18:07:53.915Z",
+      "birthtime": "2018-04-16T16:58:40.758Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md absPath of file",
+      "children": [
+        "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "96b8659c89cae998ca080b66f1aada80",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/blogs/welcome.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md",
+      "relativePath": "pages/blogs/welcome.md",
+      "extension": "md",
+      "size": 194,
+      "prettySize": "194 B",
+      "modifiedTime": "2018-04-16T17:31:14.995Z",
+      "accessTime": "2018-04-16T17:31:16.331Z",
+      "changeTime": "2018-04-16T18:07:53.914Z",
+      "birthTime": "2018-04-16T15:40:19.188Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages/blogs",
+      "base": "welcome.md",
+      "ext": ".md",
+      "name": "welcome",
+      "relativeDirectory": "pages/blogs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516011,
+      "blocks": 8,
+      "atimeMs": 1523899876330.6301,
+      "mtimeMs": 1523899874995.2856,
+      "ctimeMs": 1523902073914.0757,
+      "birthtimeMs": 1523893219188.1184,
+      "atime": "2018-04-16T17:31:16.331Z",
+      "mtime": "2018-04-16T17:31:14.995Z",
+      "ctime": "2018-04-16T18:07:53.914Z",
+      "birthtime": "2018-04-16T15:40:19.188Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/03.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/03.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "95333a4aa8dc2906d65f3d9827eddf40",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/03.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/03.jpg",
+      "relativePath": "img/1200/03.jpg",
+      "extension": "jpg",
+      "size": 122780,
+      "prettySize": "123 kB",
+      "modifiedTime": "2018-04-16T15:40:19.151Z",
+      "accessTime": "2018-04-16T16:15:37.092Z",
+      "changeTime": "2018-04-16T18:07:53.871Z",
+      "birthTime": "2018-04-16T15:40:19.150Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "03.jpg",
+      "ext": ".jpg",
+      "name": "03",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515976,
+      "blocks": 240,
+      "atimeMs": 1523895337092.074,
+      "mtimeMs": 1523893219151.0112,
+      "ctimeMs": 1523902073871.425,
+      "birthtimeMs": 1523893219150.4092,
+      "atime": "2018-04-16T16:15:37.092Z",
+      "mtime": "2018-04-16T15:40:19.151Z",
+      "ctime": "2018-04-16T18:07:53.871Z",
+      "birthtime": "2018-04-16T15:40:19.150Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/07.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/07.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "890d3c1c45c52e748d6ffa8d4fd5121b",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/07.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/07.jpg",
+      "relativePath": "img/1200/07.jpg",
+      "extension": "jpg",
+      "size": 119287,
+      "prettySize": "119 kB",
+      "modifiedTime": "2018-04-16T15:40:19.156Z",
+      "accessTime": "2018-04-16T16:15:37.100Z",
+      "changeTime": "2018-04-16T18:07:53.876Z",
+      "birthTime": "2018-04-16T15:40:19.155Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "07.jpg",
+      "ext": ".jpg",
+      "name": "07",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515979,
+      "blocks": 240,
+      "atimeMs": 1523895337099.563,
+      "mtimeMs": 1523893219155.5325,
+      "ctimeMs": 1523902073876.451,
+      "birthtimeMs": 1523893219154.8633,
+      "atime": "2018-04-16T16:15:37.100Z",
+      "mtime": "2018-04-16T15:40:19.156Z",
+      "ctime": "2018-04-16T18:07:53.876Z",
+      "birthtime": "2018-04-16T15:40:19.155Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p1.png absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p1.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2105ebe86de9a732a75177f33d56fd71",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/img/1024/CSS_CHEAT_SHEET_p1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p1.png",
+      "relativePath": "img/1024/CSS_CHEAT_SHEET_p1.png",
+      "extension": "png",
+      "size": 173265,
+      "prettySize": "173 kB",
+      "modifiedTime": "2018-04-16T15:40:19.134Z",
+      "accessTime": "2018-04-16T16:15:37.078Z",
+      "changeTime": "2018-04-16T18:07:53.903Z",
+      "birthTime": "2018-04-16T15:40:19.132Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1024",
+      "base": "CSS_CHEAT_SHEET_p1.png",
+      "ext": ".png",
+      "name": "CSS_CHEAT_SHEET_p1",
+      "relativeDirectory": "img/1024",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515993,
+      "blocks": 344,
+      "atimeMs": 1523895337078.1797,
+      "mtimeMs": 1523893219134.0034,
+      "ctimeMs": 1523902073902.8474,
+      "birthtimeMs": 1523893219132.1165,
+      "atime": "2018-04-16T16:15:37.078Z",
+      "mtime": "2018-04-16T15:40:19.134Z",
+      "ctime": "2018-04-16T18:07:53.903Z",
+      "birthtime": "2018-04-16T15:40:19.132Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p2.png absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p2.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "77fba967dfa40744afe9805d2f8e976a",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/img/1024/CSS_CHEAT_SHEET_p2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p2.png",
+      "relativePath": "img/1024/CSS_CHEAT_SHEET_p2.png",
+      "extension": "png",
+      "size": 196147,
+      "prettySize": "196 kB",
+      "modifiedTime": "2018-04-16T15:40:19.137Z",
+      "accessTime": "2018-04-16T16:15:37.080Z",
+      "changeTime": "2018-04-16T18:07:53.902Z",
+      "birthTime": "2018-04-16T15:40:19.134Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1024",
+      "base": "CSS_CHEAT_SHEET_p2.png",
+      "ext": ".png",
+      "name": "CSS_CHEAT_SHEET_p2",
+      "relativeDirectory": "img/1024",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515992,
+      "blocks": 384,
+      "atimeMs": 1523895337079.6838,
+      "mtimeMs": 1523893219136.6597,
+      "ctimeMs": 1523902073902.1167,
+      "birthtimeMs": 1523893219134.2498,
+      "atime": "2018-04-16T16:15:37.080Z",
+      "mtime": "2018-04-16T15:40:19.137Z",
+      "ctime": "2018-04-16T18:07:53.902Z",
+      "birthtime": "2018-04-16T15:40:19.134Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/01.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/01.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "536aeb290a8d13fe1d05f9f5f8f01fb1",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/01.jpg",
+      "relativePath": "img/1200/01.jpg",
+      "extension": "jpg",
+      "size": 146058,
+      "prettySize": "146 kB",
+      "modifiedTime": "2018-04-16T15:40:19.150Z",
+      "accessTime": "2018-04-16T16:15:37.090Z",
+      "changeTime": "2018-04-16T18:07:53.861Z",
+      "birthTime": "2018-04-16T15:40:19.149Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "01.jpg",
+      "ext": ".jpg",
+      "name": "01",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515974,
+      "blocks": 288,
+      "atimeMs": 1523895337090.4163,
+      "mtimeMs": 1523893219150.2104,
+      "ctimeMs": 1523902073860.6106,
+      "birthtimeMs": 1523893219149.4055,
+      "atime": "2018-04-16T16:15:37.090Z",
+      "mtime": "2018-04-16T15:40:19.150Z",
+      "ctime": "2018-04-16T18:07:53.861Z",
+      "birthtime": "2018-04-16T15:40:19.149Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/04.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/04.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9fcde1431d3ab94a26a882f86e050994",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/04.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/04.jpg",
+      "relativePath": "img/1200/04.jpg",
+      "extension": "jpg",
+      "size": 155552,
+      "prettySize": "156 kB",
+      "modifiedTime": "2018-04-16T15:40:19.152Z",
+      "accessTime": "2018-04-16T16:15:37.093Z",
+      "changeTime": "2018-04-16T18:07:53.888Z",
+      "birthTime": "2018-04-16T15:40:19.151Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "04.jpg",
+      "ext": ".jpg",
+      "name": "04",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515984,
+      "blocks": 304,
+      "atimeMs": 1523895337093.2869,
+      "mtimeMs": 1523893219151.9155,
+      "ctimeMs": 1523902073888.248,
+      "birthtimeMs": 1523893219151.1155,
+      "atime": "2018-04-16T16:15:37.093Z",
+      "mtime": "2018-04-16T15:40:19.152Z",
+      "ctime": "2018-04-16T18:07:53.888Z",
+      "birthtime": "2018-04-16T15:40:19.151Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/06.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/06.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f4b02af1fd9801209f0e60e6d1872529",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/06.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/06.jpg",
+      "relativePath": "img/1200/06.jpg",
+      "extension": "jpg",
+      "size": 174096,
+      "prettySize": "174 kB",
+      "modifiedTime": "2018-04-16T15:40:19.155Z",
+      "accessTime": "2018-04-16T16:15:37.098Z",
+      "changeTime": "2018-04-16T18:07:53.875Z",
+      "birthTime": "2018-04-16T15:40:19.154Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "06.jpg",
+      "ext": ".jpg",
+      "name": "06",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515978,
+      "blocks": 344,
+      "atimeMs": 1523895337097.878,
+      "mtimeMs": 1523893219154.7473,
+      "ctimeMs": 1523902073875.0193,
+      "birthtimeMs": 1523893219154.0127,
+      "atime": "2018-04-16T16:15:37.098Z",
+      "mtime": "2018-04-16T15:40:19.155Z",
+      "ctime": "2018-04-16T18:07:53.875Z",
+      "birthtime": "2018-04-16T15:40:19.154Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/10.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/10.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e2d669275b086f78e72ef7230fbeaca2",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/10.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/10.jpg",
+      "relativePath": "img/1200/10.jpg",
+      "extension": "jpg",
+      "size": 168692,
+      "prettySize": "169 kB",
+      "modifiedTime": "2018-04-16T15:40:19.159Z",
+      "accessTime": "2018-04-16T16:15:37.104Z",
+      "changeTime": "2018-04-16T18:07:53.883Z",
+      "birthTime": "2018-04-16T15:40:19.158Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "10.jpg",
+      "ext": ".jpg",
+      "name": "10",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515983,
+      "blocks": 336,
+      "atimeMs": 1523895337104.4375,
+      "mtimeMs": 1523893219159.0002,
+      "ctimeMs": 1523902073882.8005,
+      "birthtimeMs": 1523893219158.0698,
+      "atime": "2018-04-16T16:15:37.104Z",
+      "mtime": "2018-04-16T15:40:19.159Z",
+      "ctime": "2018-04-16T18:07:53.883Z",
+      "birthtime": "2018-04-16T15:40:19.158Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/blogs/10.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/10.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e2d669275b086f78e72ef7230fbeaca2",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/pages/blogs/10.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/10.jpg",
+      "relativePath": "pages/blogs/10.jpg",
+      "extension": "jpg",
+      "size": 168692,
+      "prettySize": "169 kB",
+      "modifiedTime": "2018-04-16T15:40:19.188Z",
+      "accessTime": "2018-04-16T16:15:37.135Z",
+      "changeTime": "2018-04-16T18:07:53.915Z",
+      "birthTime": "2018-04-16T15:40:19.187Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/pages/blogs",
+      "base": "10.jpg",
+      "ext": ".jpg",
+      "name": "10",
+      "relativeDirectory": "pages/blogs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598516013,
+      "blocks": 336,
+      "atimeMs": 1523895337134.965,
+      "mtimeMs": 1523893219187.8083,
+      "ctimeMs": 1523902073915.3413,
+      "birthtimeMs": 1523893219187.223,
+      "atime": "2018-04-16T16:15:37.135Z",
+      "mtime": "2018-04-16T15:40:19.188Z",
+      "ctime": "2018-04-16T18:07:53.915Z",
+      "birthtime": "2018-04-16T15:40:19.187Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p4.png absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p4.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "200a5bddd858a4ac2892a6c7fda12f79",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/img/1024/CSS_CHEAT_SHEET_p4.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p4.png",
+      "relativePath": "img/1024/CSS_CHEAT_SHEET_p4.png",
+      "extension": "png",
+      "size": 239382,
+      "prettySize": "239 kB",
+      "modifiedTime": "2018-04-16T15:40:19.141Z",
+      "accessTime": "2018-04-16T16:15:37.083Z",
+      "changeTime": "2018-04-16T18:07:53.904Z",
+      "birthTime": "2018-04-16T15:40:19.139Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1024",
+      "base": "CSS_CHEAT_SHEET_p4.png",
+      "ext": ".png",
+      "name": "CSS_CHEAT_SHEET_p4",
+      "relativeDirectory": "img/1024",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515994,
+      "blocks": 472,
+      "atimeMs": 1523895337083.3484,
+      "mtimeMs": 1523893219141.306,
+      "ctimeMs": 1523902073903.672,
+      "birthtimeMs": 1523893219139.1924,
+      "atime": "2018-04-16T16:15:37.083Z",
+      "mtime": "2018-04-16T15:40:19.141Z",
+      "ctime": "2018-04-16T18:07:53.904Z",
+      "birthtime": "2018-04-16T15:40:19.139Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p3.png absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p3.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "81973e19f28e5325fb3bf8fe0b75e3b9",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/img/1024/CSS_CHEAT_SHEET_p3.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1024/CSS_CHEAT_SHEET_p3.png",
+      "relativePath": "img/1024/CSS_CHEAT_SHEET_p3.png",
+      "extension": "png",
+      "size": 212931,
+      "prettySize": "213 kB",
+      "modifiedTime": "2018-04-16T15:40:19.139Z",
+      "accessTime": "2018-04-16T16:15:37.081Z",
+      "changeTime": "2018-04-16T18:07:53.901Z",
+      "birthTime": "2018-04-16T15:40:19.137Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1024",
+      "base": "CSS_CHEAT_SHEET_p3.png",
+      "ext": ".png",
+      "name": "CSS_CHEAT_SHEET_p3",
+      "relativeDirectory": "img/1024",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515991,
+      "blocks": 416,
+      "atimeMs": 1523895337081.436,
+      "mtimeMs": 1523893219139.032,
+      "ctimeMs": 1523902073900.8894,
+      "birthtimeMs": 1523893219136.891,
+      "atime": "2018-04-16T16:15:37.081Z",
+      "mtime": "2018-04-16T15:40:19.139Z",
+      "ctime": "2018-04-16T18:07:53.901Z",
+      "birthtime": "2018-04-16T15:40:19.137Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/08.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/08.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "09c31104073071260cf2c12ce25b4cd1",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/08.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/08.jpg",
+      "relativePath": "img/1200/08.jpg",
+      "extension": "jpg",
+      "size": 224887,
+      "prettySize": "225 kB",
+      "modifiedTime": "2018-04-16T15:40:19.157Z",
+      "accessTime": "2018-04-16T16:15:37.101Z",
+      "changeTime": "2018-04-16T18:07:53.890Z",
+      "birthTime": "2018-04-16T15:40:19.156Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "08.jpg",
+      "ext": ".jpg",
+      "name": "08",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515986,
+      "blocks": 440,
+      "atimeMs": 1523895337100.7139,
+      "mtimeMs": 1523893219156.6042,
+      "ctimeMs": 1523902073889.9067,
+      "birthtimeMs": 1523893219155.669,
+      "atime": "2018-04-16T16:15:37.101Z",
+      "mtime": "2018-04-16T15:40:19.157Z",
+      "ctime": "2018-04-16T18:07:53.890Z",
+      "birthtime": "2018-04-16T15:40:19.156Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/09.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/09.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1d072b92a3203b821e505bb30f21c00e",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/09.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/09.jpg",
+      "relativePath": "img/1200/09.jpg",
+      "extension": "jpg",
+      "size": 201140,
+      "prettySize": "201 kB",
+      "modifiedTime": "2018-04-16T15:40:19.158Z",
+      "accessTime": "2018-04-16T16:15:37.103Z",
+      "changeTime": "2018-04-16T18:07:53.889Z",
+      "birthTime": "2018-04-16T15:40:19.157Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "09.jpg",
+      "ext": ".jpg",
+      "name": "09",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515985,
+      "blocks": 400,
+      "atimeMs": 1523895337102.636,
+      "mtimeMs": 1523893219157.831,
+      "ctimeMs": 1523902073889.044,
+      "birthtimeMs": 1523893219156.748,
+      "atime": "2018-04-16T16:15:37.103Z",
+      "mtime": "2018-04-16T15:40:19.158Z",
+      "ctime": "2018-04-16T18:07:53.889Z",
+      "birthtime": "2018-04-16T15:40:19.157Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/14.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/14.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3a1a3dc692d698e1453a873420cf1e5a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/14.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/14.jpg",
+      "relativePath": "img/1200/14.jpg",
+      "extension": "jpg",
+      "size": 239988,
+      "prettySize": "240 kB",
+      "modifiedTime": "2018-04-16T15:40:19.185Z",
+      "accessTime": "2018-04-16T16:15:37.132Z",
+      "changeTime": "2018-04-16T18:07:53.860Z",
+      "birthTime": "2018-04-16T15:40:19.183Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "14.jpg",
+      "ext": ".jpg",
+      "name": "14",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515973,
+      "blocks": 472,
+      "atimeMs": 1523895337131.8,
+      "mtimeMs": 1523893219184.9573,
+      "ctimeMs": 1523902073859.585,
+      "birthtimeMs": 1523893219183.3062,
+      "atime": "2018-04-16T16:15:37.132Z",
+      "mtime": "2018-04-16T15:40:19.185Z",
+      "ctime": "2018-04-16T18:07:53.860Z",
+      "birthtime": "2018-04-16T15:40:19.183Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/17.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/17.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "43138f230d3841b9ca70f77b776b8654",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/17.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/17.jpg",
+      "relativePath": "img/1200/17.jpg",
+      "extension": "jpg",
+      "size": 202112,
+      "prettySize": "202 kB",
+      "modifiedTime": "2018-04-16T17:13:55.730Z",
+      "accessTime": "2018-04-16T17:40:55.229Z",
+      "changeTime": "2018-04-16T18:07:53.863Z",
+      "birthTime": "2018-04-16T17:12:56.000Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "17.jpg",
+      "ext": ".jpg",
+      "name": "17",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515975,
+      "blocks": 400,
+      "atimeMs": 1523900455228.889,
+      "mtimeMs": 1523898835730.0425,
+      "ctimeMs": 1523902073862.5693,
+      "birthtimeMs": 1523898776000,
+      "atime": "2018-04-16T17:40:55.229Z",
+      "mtime": "2018-04-16T17:13:55.730Z",
+      "ctime": "2018-04-16T18:07:53.863Z",
+      "birthtime": "2018-04-16T17:12:56.000Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/11.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/11.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6158c919786e50ae1929bda3a87c9c3e",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/11.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/11.jpg",
+      "relativePath": "img/1200/11.jpg",
+      "extension": "jpg",
+      "size": 281774,
+      "prettySize": "282 kB",
+      "modifiedTime": "2018-04-16T15:40:19.160Z",
+      "accessTime": "2018-04-16T17:31:04.024Z",
+      "changeTime": "2018-04-16T18:07:53.881Z",
+      "birthTime": "2018-04-16T15:40:19.159Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "11.jpg",
+      "ext": ".jpg",
+      "name": "11",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515982,
+      "blocks": 552,
+      "atimeMs": 1523899864023.7163,
+      "mtimeMs": 1523893219160.4912,
+      "ctimeMs": 1523902073881.3926,
+      "birthtimeMs": 1523893219159.13,
+      "atime": "2018-04-16T17:31:04.024Z",
+      "mtime": "2018-04-16T15:40:19.160Z",
+      "ctime": "2018-04-16T18:07:53.881Z",
+      "birthtime": "2018-04-16T15:40:19.159Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/13.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/13.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2ba6eada204597de9fbd0e324599a4df",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/13.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/13.jpg",
+      "relativePath": "img/1200/13.jpg",
+      "extension": "jpg",
+      "size": 302160,
+      "prettySize": "302 kB",
+      "modifiedTime": "2018-04-16T15:40:19.183Z",
+      "accessTime": "2018-04-16T16:15:37.131Z",
+      "changeTime": "2018-04-16T18:07:53.879Z",
+      "birthTime": "2018-04-16T15:40:19.182Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "13.jpg",
+      "ext": ".jpg",
+      "name": "13",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515980,
+      "blocks": 592,
+      "atimeMs": 1523895337130.814,
+      "mtimeMs": 1523893219183.1125,
+      "ctimeMs": 1523902073879.0505,
+      "birthtimeMs": 1523893219181.8376,
+      "atime": "2018-04-16T16:15:37.131Z",
+      "mtime": "2018-04-16T15:40:19.183Z",
+      "ctime": "2018-04-16T18:07:53.879Z",
+      "birthtime": "2018-04-16T15:40:19.182Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/05.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/05.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "37a5f843281bae81fb2d9e19c83a5610",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/05.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/05.jpg",
+      "relativePath": "img/1200/05.jpg",
+      "extension": "jpg",
+      "size": 378963,
+      "prettySize": "379 kB",
+      "modifiedTime": "2018-04-16T15:40:19.154Z",
+      "accessTime": "2018-04-16T16:15:37.095Z",
+      "changeTime": "2018-04-16T18:07:53.880Z",
+      "birthTime": "2018-04-16T15:40:19.152Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "05.jpg",
+      "ext": ".jpg",
+      "name": "05",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515981,
+      "blocks": 744,
+      "atimeMs": 1523895337094.9968,
+      "mtimeMs": 1523893219153.8235,
+      "ctimeMs": 1523902073879.9272,
+      "birthtimeMs": 1523893219152.0544,
+      "atime": "2018-04-16T16:15:37.095Z",
+      "mtime": "2018-04-16T15:40:19.154Z",
+      "ctime": "2018-04-16T18:07:53.880Z",
+      "birthtime": "2018-04-16T15:40:19.152Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"On Data Security\"\nauthor: \"Dr. Ulrich Anders\"\ndate: \"2018-04-14\"\n---\n\n![We are open](../../img/1200/13.jpg)\n\nCustomers used to pay with money. But nowadays many app or web services are seemingly for free. But they are not really free. No, such services customers are not paying with money they pay with data. \n\nData has become a currency. Thus the big question remains: who owns the data. Is it the customer's data or is it the companies data, since customers paid with their data? \n\nIndependent of an answer to this very question, one thing is for sure: data and especially personal data need to be protected.\n\nIn order to ensure this, the issue of data security becomes a central topic. Data security needs to be an inbuilt feature into any digital offer or service.\n\nHere are the areas which data security needs to deal with:\n\n1. Security of transfer: PGP, HTTPS, TSL / SSL, etc.\n1. Security of access: Authentification.\n1. Security of databases: Encryption, division of concerns.\n1. Security of transactions: PIN / TAN etc.\n1. Security of passwords: Finger prints, face recognition.\n1. Security of systems: Protection from viruses, ransomware, espionage.\n1. Security for company clouds: Data may be accessible by cloud provider.\n1. Security of encryption: Choose the right procedure. Not all encryptions are safe.\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6f4ed5f8bd0abd35a013d0a7ef4e5079",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "On Data Security",
+        "author": "Dr. Ulrich Anders",
+        "date": "2018-04-14",
+        "_PARENT": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md absPath of file",
+        "parent": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md",
+      "fields": {
+        "slug": "/blogs/on-data-security/"
+      }
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"coffeegangster\"\nauthor: \" Clara Esfeld\"\ndate: \"2018-04-16\"\n---\n\n![cafebild](../../img/1200/17.jpg)\n\nWelcome to my blog. I hope you will read blog posts and --- contribute yourself.\n\n##FIKA\n\n>\"Functioning as both a verb and a noun, the concept of fika is simple. It is the moment that you take a break, often with a cup of coffee, but alternatively with tea, and find a baked good to pair with it. You can do it alone, you can do it with friends. You can do it at home, in a park or at work. But the essential thing is that you do it, that you make time to take a break: that's what fika is all about.\"  \n\n>(source: Fika: [The Art of the Swedish Coffee Break] (https://www.thekitchn.com/what-in-the-world-is-fika-an-intro-to-the-swedish-coffee-break-the-art-of-fika-219297))\n\n###-- Clara & La Helen\n\n\n_Photo creds: \nJacek Dylag\n@dylu_\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "56ce800c9d6ebf1dc11b818a093626a6",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "coffeegangster",
+        "author": " Clara Esfeld",
+        "date": "2018-04-16",
+        "_PARENT": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md absPath of file",
+        "parent": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md",
+      "fields": {
+        "slug": "/blogs/coffeegangster/"
+      }
+    },
+    "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Welcome\"\nauthor: \"Dr. Ulrich Anders\"\ndate: \"2018-04-08\"\n---\n\n![We are open](../../img/1200/11.jpg)\n\nWelcome to this blog. I hope you will read blog posts and --- contribute yourself.",
+        "type": "MarkdownRemark",
+        "contentDigest": "afcc62fd19ebf47d5e8f53d1c363ac8f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Welcome",
+        "author": "Dr. Ulrich Anders",
+        "date": "2018-04-08",
+        "_PARENT": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md absPath of file",
+        "parent": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md",
+      "fields": {
+        "slug": "/blogs/welcome/"
+      }
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1024/HTML_CHEAT_SHEET.png absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1024/HTML_CHEAT_SHEET.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aaf69fcbf637c50ab2655b2d58113280",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/img/1024/HTML_CHEAT_SHEET.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1024/HTML_CHEAT_SHEET.png",
+      "relativePath": "img/1024/HTML_CHEAT_SHEET.png",
+      "extension": "png",
+      "size": 783567,
+      "prettySize": "784 kB",
+      "modifiedTime": "2018-04-16T15:40:19.149Z",
+      "accessTime": "2018-04-16T16:15:37.085Z",
+      "changeTime": "2018-04-16T18:07:53.905Z",
+      "birthTime": "2018-04-16T15:40:19.141Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1024",
+      "base": "HTML_CHEAT_SHEET.png",
+      "ext": ".png",
+      "name": "HTML_CHEAT_SHEET",
+      "relativeDirectory": "img/1024",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515995,
+      "blocks": 1536,
+      "atimeMs": 1523895337085.3948,
+      "mtimeMs": 1523893219148.9724,
+      "ctimeMs": 1523902073904.6133,
+      "birthtimeMs": 1523893219141.4802,
+      "atime": "2018-04-16T16:15:37.085Z",
+      "mtime": "2018-04-16T15:40:19.149Z",
+      "ctime": "2018-04-16T18:07:53.905Z",
+      "birthtime": "2018-04-16T15:40:19.141Z"
+    },
+    "/Users/claraesfeld/websites/claramarie/src/img/1200/12.jpg absPath of file": {
+      "id": "/Users/claraesfeld/websites/claramarie/src/img/1200/12.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "20d25160e2741784eed5fd5ee02b4f40",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/1200/12.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/claraesfeld/websites/claramarie/src/img/1200/12.jpg",
+      "relativePath": "img/1200/12.jpg",
+      "extension": "jpg",
+      "size": 3606400,
+      "prettySize": "3.61 MB",
+      "modifiedTime": "2018-04-16T15:40:19.181Z",
+      "accessTime": "2018-04-16T16:15:37.107Z",
+      "changeTime": "2018-04-16T18:07:53.874Z",
+      "birthTime": "2018-04-16T15:40:19.161Z",
+      "root": "/",
+      "dir": "/Users/claraesfeld/websites/claramarie/src/img/1200",
+      "base": "12.jpg",
+      "ext": ".jpg",
+      "name": "12",
+      "relativeDirectory": "img/1200",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598515977,
+      "blocks": 7048,
+      "atimeMs": 1523895337107.0452,
+      "mtimeMs": 1523893219180.9248,
+      "ctimeMs": 1523902073873.5774,
+      "birthtimeMs": 1523893219160.7993,
+      "atime": "2018-04-16T16:15:37.107Z",
+      "mtime": "2018-04-16T15:40:19.181Z",
+      "ctime": "2018-04-16T18:07:53.874Z",
+      "birthtime": "2018-04-16T15:40:19.161Z"
+    },
+    "SitePage /blogs/on-data-security/": {
+      "layout": "index",
+      "jsonName": "blogs-on-data-security.json",
+      "internalComponentName": "ComponentBlogsOnDataSecurity",
+      "path": "/blogs/on-data-security/",
+      "component": "/Users/claraesfeld/websites/claramarie/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/blogs/on-data-security/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/src/templates/blog-post.js",
+      "id": "SitePage /blogs/on-data-security/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "57e7012c1bb750f2f0df1fe4a58e135f",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blogs/coffeegangster/": {
+      "layout": "index",
+      "jsonName": "blogs-coffeegangster.json",
+      "internalComponentName": "ComponentBlogsCoffeegangster",
+      "path": "/blogs/coffeegangster/",
+      "component": "/Users/claraesfeld/websites/claramarie/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/blogs/coffeegangster/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/src/templates/blog-post.js",
+      "id": "SitePage /blogs/coffeegangster/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cb6ac9ae74ff56cb301ae63195088e38",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blogs/welcome/": {
+      "layout": "index",
+      "jsonName": "blogs-welcome.json",
+      "internalComponentName": "ComponentBlogsWelcome",
+      "path": "/blogs/welcome/",
+      "component": "/Users/claraesfeld/websites/claramarie/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/blogs/welcome/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/src/templates/blog-post.js",
+      "id": "SitePage /blogs/welcome/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1d7681b74fcee7e4c1f71f3f63ac2bfb",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/claraesfeld/websites/claramarie/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f09d2b1357db7b26c5ca32945f93ee0f",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/claraesfeld/websites/claramarie/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4403cefc9f14d9aa1b6e9278a8b6b121",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blogs/": {
+      "layout": "index",
+      "jsonName": "blogs.json",
+      "internalComponentName": "ComponentBlogs",
+      "path": "/blogs/",
+      "component": "/Users/claraesfeld/websites/claramarie/src/pages/blogs.js",
+      "componentChunkName": "component---src-pages-blogs-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/src/pages/blogs.js",
+      "id": "SitePage /blogs/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d5dfb69c9d3d957883ec2562a76505a7",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cheatsheets/": {
+      "layout": "index",
+      "jsonName": "cheatsheets.json",
+      "internalComponentName": "ComponentCheatsheets",
+      "path": "/cheatsheets/",
+      "component": "/Users/claraesfeld/websites/claramarie/src/pages/cheatsheets.js",
+      "componentChunkName": "component---src-pages-cheatsheets-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/src/pages/cheatsheets.js",
+      "id": "SitePage /cheatsheets/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "81e147621bb43588db1e8ce64b28955d",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /imprint/": {
+      "layout": "index",
+      "jsonName": "imprint.json",
+      "internalComponentName": "ComponentImprint",
+      "path": "/imprint/",
+      "component": "/Users/claraesfeld/websites/claramarie/src/pages/imprint.js",
+      "componentChunkName": "component---src-pages-imprint-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/src/pages/imprint.js",
+      "id": "SitePage /imprint/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7bc9dc274128f833450d0b87d44658bb",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/claraesfeld/websites/claramarie/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "00b0d50c02177c75e33a9073ca0e6ccb",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/claraesfeld/websites/claramarie/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/claraesfeld/websites/claramarie/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fc9ef732b9027f6f6662c53ca9f7ad02",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "a7c67d1871de7cf58b656ecda0fa3709"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/Users/claraesfeld/websites/claramarie/src/pages/blogs/welcome.md absPath of file >>> MarkdownRemark": [
+        "/blogs/welcome/"
+      ],
+      "/Users/claraesfeld/websites/claramarie/src/pages/blogs/coffeegangster.md absPath of file >>> MarkdownRemark": [
+        "/blogs/coffeegangster/"
+      ],
+      "/Users/claraesfeld/websites/claramarie/src/pages/blogs/on-data-security.md absPath of file >>> MarkdownRemark": [
+        "/blogs/on-data-security/"
+      ],
+      "Site": [
+        "LAYOUT___index"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "MarkdownRemark": [
+        "/blogs/"
+      ]
+    }
+  }
+}

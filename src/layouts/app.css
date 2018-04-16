@@ -1,0 +1,12 @@
+a {
+  color: #d32f2f;
+}
+
+a:hover {
+  color: #333333;
+}
+
+svg {
+  height: 1em;
+  vertical-align: -0.125em;
+}
