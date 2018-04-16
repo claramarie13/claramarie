@@ -1,8 +1,8 @@
 {
-  "name": "DNE",
-  "description": "Digital Network Economy Class",
+  "name": "claramarie",
+  "description": "Claras erste Versuche im Internet",
   "version": "1.1.0",
-  "author": "Ulrich Anders",
+  "author": "Clara Esfeld",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.5",
     "@fortawesome/fontawesome-free-regular": "^5.0.10",
