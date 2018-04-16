@@ -1,4 +1,4 @@
-# DNE
+# Clara & Das Internet
 
 This is a repository developed for me to try out GitHub, Gatsby, Visual Studio Codes and further Tools after visiting the class _Digital Network Economy_ at [Cologne Business School](https://cbs.de).
 
